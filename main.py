@@ -15,8 +15,8 @@ print(data_list)
 try:
     server =smtplib.SMTP("smtp.gmail.com",587)
     server.starttls()
-    server.login("universitypoornima08@gmail.com","yiys jrlh lauw hfmd")
-    from_ ="universitypoornima08@gmail.com"
+    server.login("your email address","app password") # ex: "yiys jrlh lauw hfmd"
+    from_ ="your email address"
     To_=data_list
     msg = MIMEMultipart()
     msg['From'] = from_
