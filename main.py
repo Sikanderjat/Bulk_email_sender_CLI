@@ -4,7 +4,7 @@ from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 
 
-data =pd.read_excel("book1.xlsx") #getting data from bool1.xlsx file
+data =pd.read_excel("data.xlsx") #getting data from bool1.xlsx file
 print(data)
 email_address=data.get("email") # getting all emails 
 # print(email_address)
